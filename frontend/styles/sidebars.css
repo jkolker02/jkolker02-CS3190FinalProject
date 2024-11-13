@@ -1,0 +1,73 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Main container to hold both navbar and content */
+.container-flex {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Navbar styles */
+#navbar {
+  width: 200px; /* Set the width of the navbar */
+  background-color: #343a40;
+  color: white;
+  padding-top: 20px;
+  position: fixed; /* Fix navbar on the left side */
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Content styles */
+#content {
+  margin-left: 200px; /* Offset the content to the right to make space for the navbar */
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #f8f9fa;
+  transition: margin-left 0.3s ease; /* Smooth transition when toggling */
+}
+
+/* Navbar dropdown menu style */
+#navbar .btn-toggle {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+#navbar .collapse {
+  display: none;
+}
+
+#navbar .collapse.show {
+  display: block;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
