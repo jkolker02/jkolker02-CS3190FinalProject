@@ -1,0 +1,180 @@
+{
+    "newCars": {
+        "vans": [
+            {
+                "name": "White Van",
+                "year": 2024,
+                "miles": 0,
+                "color": "white",
+                "description": "Brand new spacious van with advanced safety features.",
+                "price": 35000,
+                "picture": "./images/newvan1.jpg"
+            },
+            {
+                "name": "Black Van",
+                "year": 2024,
+                "miles": 0,
+                "color": "black",
+                "description": "Luxury van with premium interior and modern tech.",
+                "price": 45000,
+                "picture": "./images/newvan2.jpg"
+            },
+            {
+                "name": "Red Van",
+                "year": 2024,
+                "miles": 0,
+                "color": "red",
+                "description": "Powerful new van with large interior and heavy capacity.",
+                "price": 48000,
+                "picture": "./images/newvan3.jpg"
+            }
+        ],
+        "trucks": [
+            {
+                "name": "Chevrolet Silverado 1500",
+                "year": 2024,
+                "miles": 0,
+                "color": "red",
+                "description": "Heavy-duty truck built for performance and power.",
+                "price": 50000,
+                "picture": "./images/newtruck1.jpg"
+            },
+            {
+                "name": "Ford F-150",
+                "year": 2024,
+                "miles": 0,
+                "color": "grey",
+                "description": "High towing capacity truck made for endurance and distance hauling.",
+                "price": 70000,
+                "picture": "./images/newtruck2.jpg"
+            },
+            {
+                "name": "Toyota Tacoma TRD Sport",
+                "year": 2024,
+                "miles": 0,
+                "color": "black",
+                "description": "Cost effective starter truck with large bed.",
+                "price": 32000,
+                "picture": "./images/newtruck3.jpg"
+            }
+        ],
+        "sedans": [
+            {
+                "name": "Toyota Camry",
+                "year": 2024,
+                "miles": 0,
+                "color": "red",
+                "description": "Brand new sedan with advanced technology and premium interior.",
+                "price": 32000,
+                "picture": "./images/newsedan1.jpg"
+            },
+            {
+                "name": "Honda Accord Hybrid EX-L",
+                "year": 2024,
+                "miles": 0,
+                "color": "black",
+                "description": "Luxury sedan with modern safety features and powerful engine.",
+                "price": 40000,
+                "picture": "./images/newsedan2.jpg"
+            },
+            {
+                "name": "Subaru Legacy Limited",
+                "year": 2024,
+                "miles": 0,
+                "color": "silver",
+                "description": "Top-tier sedan with excellent fuel economy and sleek design.",
+                "price": 35000,
+                "picture": "./images/newsedan3.jpg"
+            }
+        ]
+    },
+    "usedCars": {
+        "vans": [
+            {
+                "name": "Ford Transit 250HR Cargo",
+                "year": 2018,
+                "miles": 45000,
+                "color": "grey",
+                "description": "Pre-owned van in good condition with spacious interior.",
+                "price": 22000,
+                "picture": "./images/usedvan1.jpg"
+            },
+            {
+                "name": "Mercedes-Benz Sprinter",
+                "year": 2017,
+                "miles": 60000,
+                "color": "black",
+                "description": "Well-maintained van with low mileage.",
+                "price": 18000,
+                "picture": "./images/usedvan2.jpg"
+            },
+            {
+                "name": "Chevrolet Express 3500 Passenger",
+                "year": 2016,
+                "miles": 70000,
+                "color": "blue",
+                "description": "Affordable van with high capacity and solid performance.",
+                "price": 16000,
+                "picture": "./images/usedvan3.jpg"
+            }
+        ],
+        "trucks": [
+            {
+                "name": "Chevrolet Silverado 1500",
+                "year": 2019,
+                "miles": 30000,
+                "color": "gray",
+                "description": "Used truck with great towing capacity and durable build.",
+                "price": 34000,
+                "picture": "./images/usedtruck1.jpg"
+            },
+            {
+                "name": "Chevrolet Silverado 1500",
+                "year": 2015,
+                "miles": 75000,
+                "color": "blue",
+                "description": "Older truck in good condition with off-road capability.",
+                "price": 20000,
+                "picture": "./images/usedtruck2.jpg"
+            },
+            {
+                "name": "Toyota Tacoma TRD Off-Road",
+                "year": 2016,
+                "miles": 85000,
+                "color": "red",
+                "description": "Reliable truck with solid engine performance and 4WD.",
+                "price": 26000,
+                "picture": "./images/usedtruck3.jpg"
+            }
+        ],
+        "sedans": [
+            {
+                "name": "Honda Civic",
+                "year": 2020,
+                "miles": 15000,
+                "color": "silver",
+                "description": "Nearly new sedan with excellent fuel efficiency.",
+                "price": 22000,
+                "picture": "./images/usedsedan1.jpg"
+            },
+            {
+                "name": "Kia Optima",
+                "year": 2016,
+                "miles": 90000,
+                "color": "black",
+                "description": "Well-maintained sedan with a sleek design.",
+                "price": 12000,
+                "picture": "./images/usedsedan2.jpg"
+            },
+            {
+                "name": "Lincoln Continental",
+                "year": 2017,
+                "miles": 45000,
+                "color": "white",
+                "description": "Comfortable sedan with modern safety features.",
+                "price": 18000,
+                "picture": "./images/usedsedan3.jpg"
+            }
+        ]
+    }
+}
