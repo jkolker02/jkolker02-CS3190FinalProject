@@ -16,7 +16,7 @@ const App = () => {
         <Navbar onSectionChange={handleSectionChange}/> {/* Sidebar navbar on the left */}
       </div>
       <div style={{ flex: '1', padding: '20px' }}>
-        <DisplayContent activeSection={activeSection}/> {/* Main content on the right */}
+        <DisplayContent activeSection={activeSection} onSectionChange={handleSectionChange}/> {/* Main content on the right */}
       </div>
     </div>
   );
