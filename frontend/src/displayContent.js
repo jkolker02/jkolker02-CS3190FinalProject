@@ -1,7 +1,7 @@
 import React from 'react';
-import Homepage from './Homepage';
-import DisplayCars from './displayCars';
-import AddCar from './addCar'; 
+import Homepage from './Homepage.js';
+import DisplayCars from './displayCars.js';
+import AddCar from './addCar.js'; 
 
 const DisplayContent = ({ activeSection, onSectionChange }) => {
   const renderContent = () => {
