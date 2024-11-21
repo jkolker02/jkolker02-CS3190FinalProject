@@ -120,7 +120,7 @@ app.get("/usedTrucks", async (req, res) => {
 
 
 // Post a new review for a car (add/update rating)
-app.post("/addReview", async (req, res) => {
+app.put("/addReview", async (req, res) => {
     const { carId, rating } = req.body;
 
     // Validate rating

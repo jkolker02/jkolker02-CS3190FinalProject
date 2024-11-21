@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './sidebars.css';
 
 const DisplayCars = ({ category }) => {
   const [cars, setCars] = useState([]);
@@ -84,7 +85,7 @@ const DisplayCars = ({ category }) => {
   const renderStars = (carId, averageRating) => {
     const currentRating = ratings[carId] || 0;
     return (
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
         {[...Array(5)].map((_, index) => {
           const starValue = index + 1;
           return (
@@ -107,6 +108,7 @@ const DisplayCars = ({ category }) => {
       </div>
     );
   };
+  
 
   return (
     <div id="jumbotron">
@@ -220,7 +222,7 @@ const DisplayCars = ({ category }) => {
                                 style={{
                                 position: 'absolute',
                                 bottom: '10px',
-                                right: '10px',
+                                left: '15px',
                                 fontSize: '12px',
                                 color: 'gray',
                                 }}

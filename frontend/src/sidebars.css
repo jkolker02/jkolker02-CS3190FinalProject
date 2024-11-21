@@ -5,13 +5,6 @@
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 
 /* Main container to hold both navbar and content */
 .container-flex {
@@ -74,14 +67,14 @@ body, html {
 
 
 .stars-container {
-  position: absolute; /* Position relative to the card */
-  bottom: 10px; /* Adjust distance from the bottom of the card */
+  position: absolute; /* Make it position relative to the card */
+  bottom: 20px; /* Adjust distance from the bottom of the card */
   right: 10px; /* Adjust distance from the right edge of the card */
   display: flex;
   gap: 4px; /* Add space between stars */
-  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a subtle background */
-  padding: 5px; /* Optional: Add padding around stars */
-  border-radius: 5px; /* Optional: Rounded edges for the container */
+  background-color: transparent; /* Remove the background */
+  padding: 0; /* Remove padding */
+  border-radius: 5px; /* Optional: Rounded edges for the container, but no background to highlight */
 }
 
 .card {

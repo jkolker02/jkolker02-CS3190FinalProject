@@ -73,18 +73,9 @@ const Navbar = ({ onSectionChange }) => {
             </div>
           </li>
 
-          {/* Checkout Section */}
-          <li className="border-top my-3"></li>
-          <li className="mb-1">
-            <button
-              className="fs-5 btn btn-toggle d-inline-flex align-items-center rounded border-0"
-              onClick={() => onSectionChange('checkout')}
-            >
-              Checkout
-            </button>
-          </li>
 
           {/* Add Your Car Section */}
+          <li className="border-top my-3"></li>
           <li className="mb-1">
             <button
               className="fs-5 btn btn-toggle d-inline-flex align-items-center rounded border-0"
